@@ -47,9 +47,9 @@
     color: wheat;
 }
 
-/* .card:hover > .front{
+.card.active > .front{
     transform: perspective(900px) rotateY(180deg);
 }
-.card:hover > .back{
+.card.active > .back{
     transform: perspective(900px) rotateY(0deg);
-} */
+}
